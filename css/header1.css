@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+button {
+  border: none !important; }
+
+a, button {
+  cursor: pointer;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+a:hover, button:hover {
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+div, a {
+  position: relative;
+  display: block; }
+
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+.botton__gren {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(54deg, #7bc5ac 15%, #faffb1 95%);
+  background-image: linear-gradient(36deg, #7bc5ac 15%, #faffb1 95%);
+  -webkit-box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  max-width: 297px;
+  width: 100%;
+  line-height: 70px !important;
+  height: 70px;
+  text-align: center;
+  display: block;
+  border: none;
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+  letter-spacing: .15em;
+  color: #ffffff;
+  font: 0.94em "FuturaPT-Medium";
+  text-transform: uppercase; }
+  @media only screen and (min-width: 999px) {
+    .botton__gren:hover {
+      -webkit-transition: all 1.3s;
+      transition: all 1.3s;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      background-image: -webkit-linear-gradient(54deg, #7bc5ac 56%, #faffb1 92%);
+      background-image: linear-gradient(36deg, #7bc5ac 56%, #faffb1 92%);
+      -webkit-box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23);
+      box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23); } }
+
+.botton__border {
+  background: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 3px solid #7bc5ac !important;
+  -webkit-box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  max-width: 297px;
+  width: 100%;
+  line-height: 70px !important;
+  height: 70px;
+  text-align: center;
+  display: block;
+  border: none;
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+  letter-spacing: .15em;
+  color: #a5dbad;
+  font: 0.94em "FuturaPT-Medium";
+  text-transform: uppercase; }
+  @media only screen and (min-width: 999px) {
+    .botton__border:hover {
+      border: none !important;
+      color: #fff;
+      -webkit-transition: all 1.3s;
+      transition: all 1.3s;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      background-image: -webkit-linear-gradient(54deg, #7bc5ac 56%, #faffb1 92%);
+      background-image: linear-gradient(36deg, #7bc5ac 56%, #faffb1 92%);
+      -webkit-box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23);
+      box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23); } }
+
+/* независимые элименты STYLE Web~Oman --------- */
+.box__linea__h2 span:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #ffcf1e;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease; }
+
+.box__linea__h2 .yallou__line:after {
+  content: '';
+  display: block;
+  background: #ffcf1e;
+  height: 3px;
+  width: 128px; }
+
+#timer-text-7cc92ab139b86b8f9595fe09a1cb3976-days,
+#timer-text-7cc92ab139b86b8f9595fe09a1cb3976-hours,
+#timer-text-7cc92ab139b86b8f9595fe09a1cb3976-minutes {
+  color: #7cd8ad !important;
+  font: 1em "FuturaPT-BookObl" !important;
+  text-transform: capitalize; }
+
+.timer-element {
+  display: block !important;
+  text-align: right; }
+
+#timer-number-value-7cc92ab139b86b8f9595fe09a1cb3976-days,
+#timer-number-value-7cc92ab139b86b8f9595fe09a1cb3976-hours,
+#timer-number-value-7cc92ab139b86b8f9595fe09a1cb3976-minutes {
+  color: #7cd8ad !important;
+  font: 1.06em "FuturaPT-Heavy" !important; }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  height: 825px;
+  background: url(images/header1.png) no-repeat top center; }
+  header .box__logo {
+    margin-top: 30px; }
+  header .box__phone {
+    margin-left: 70px; }
+    header .box__phone .callme {
+      letter-spacing: .1em;
+      margin-top: 38px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      font: 0.94em "FuturaPT-Medium";
+      color: #7bc5ac; }
+      @media only screen and (min-width: 999px) {
+        header .box__phone .callme:hover {
+          color: #4F7F33; } }
+    header .box__phone .phone {
+      letter-spacing: .1em;
+      color: #bfbfbf;
+      font: 1.13em "FuturaPT-Medium";
+      margin-top: 5px; }
+      @media only screen and (min-width: 999px) {
+        header .box__phone .phone:hover {
+          color: #000; } }
+  header .title {
+    margin-top: 140px;
+    color: #afafaf;
+    font: 0.88em "FuturaPT-Medium";
+    text-transform: uppercase;
+    letter-spacing: .22em; }
+  header h1 {
+    margin-left: -2px;
+    margin-top: 20px;
+    font: 5.1em "FuturaPT-Demi";
+    line-height: 0.82;
+    color: #84c9ac; }
+  header .excerpt {
+    margin-top: 10px;
+    font: 2.85em "FuturaPT-Demi";
+    color: #404041;
+    line-height: 1.02; }
+  header .slogan {
+    margin-top: 28px;
+    color: #acaeb2;
+    font: 1.32em "FuturaPT-BookObl";
+    margin-bottom: 30px; }
+  header .box__clok {
+    display: block;
+    margin-top: 45px; }
+    header .box__clok h3 {
+      text-align: right;
+      color: #3f4041;
+      font: 1.05em "FuturaPT-Heavy";
+      margin-bottom: 30px; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  header {
+    height: auto !important;
+    background: url(images/header.png) no-repeat top right -400px;
+    text-align: center;
+    margin-bottom: 100px; }
+    header h1 {
+      margin-left: 0px; }
+    header .box__botton .botton__gren {
+      margin-left: auto;
+      margin-right: auto; }
+    header .slogan {
+      padding-bottom: 100px; }
+    header .box__phone {
+      margin-left: 0px; }
+    header .box__clok h3 {
+      text-align: center; }
+      header .box__clok h3 br {
+        display: none; }
+    header .box__clok .box__timer {
+      height: 100px; }
+      header .box__clok .box__timer .timer-element {
+        display: inline-block !important;
+        text-align: center; } }
+
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  header {
+    height: auto !important;
+    background: url(images/header.png) no-repeat top right -400px;
+    text-align: center; }
+    header h1 {
+      font-size: 4em;
+      margin-left: 0px; }
+    header .slogan {
+      padding-bottom: 100px; }
+    header .box__phone {
+      margin-left: 0px; }
+    header .excerpt {
+      font-size: 2em; }
+    header .box__botton .botton__gren {
+      margin-left: auto;
+      margin-right: auto; }
+    header .box__clok h3 {
+      text-align: center; }
+      header .box__clok h3 br {
+        display: none; }
+    header .box__clok .box__timer {
+      height: 100px; }
+      header .box__clok .box__timer .timer-element {
+        display: inline-block !important;
+        text-align: center; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+  header {
+    height: auto !important;
+    background: none !important;
+    text-align: center; }
+    header h1 {
+      font-size: 2em;
+      margin-left: 0px; }
+    header .box__phone {
+      margin-left: 0px; }
+    header .excerpt {
+      font-size: 1.5em; }
+    header .box__botton .botton__gren {
+      margin-left: auto;
+      margin-right: auto; }
+    header .title {
+      margin-top: 50px; }
+    header .box__clok h3 {
+      text-align: center; }
+      header .box__clok h3 br {
+        display: none; }
+    header .box__clok .box__timer {
+      height: 100px; }
+      header .box__clok .box__timer .timer-element {
+        display: inline-block !important;
+        text-align: center; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  header {
+    height: auto !important;
+    background: none;
+    text-align: center; }
+    header h1 {
+      font-size: 2em;
+      margin-left: 0px; }
+    header .title {
+      margin-top: 50px; }
+    header .box__phone {
+      margin-left: 0px; }
+    header .excerpt {
+      font-size: 1.5em; }
+    header .box__botton .botton__gren {
+      margin-left: auto;
+      margin-right: auto; }
+    header .box__clok h3 {
+      text-align: center; }
+      header .box__clok h3 br {
+        display: none; }
+    header .box__clok .box__timer {
+      height: 100px; }
+      header .box__clok .box__timer .timer-element {
+        display: inline-block !important;
+        text-align: center; } }
+
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

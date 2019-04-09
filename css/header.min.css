@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+button {
+  border: none !important; }
+
+a, button {
+  cursor: pointer;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+a:hover, button:hover {
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+div, a {
+  position: relative;
+  display: block; }
+
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+.botton__gren {
+  text-transform: uppercase;
+  font: 0.88em "HelveticaNeueCyr-Bold";
+  color: #000000;
+  max-width: 390px;
+  width: 100%;
+  line-height: 60px !important;
+  height: 60px;
+  background: #2ecc71;
+  text-align: center;
+  display: block;
+  border: none;
+  letter-spacing: .15em;
+  text-transform: uppercase; }
+  .botton__gren:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 98px;
+    height: 29px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    -webkit-transition: all 2.3s;
+    transition: all 2.3s; }
+  .botton__gren:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 98px;
+    height: 29px;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    -webkit-transition: all 2.3s;
+    transition: all 2.3s; }
+  .botton__gren:hover:after {
+    max-width: 390px;
+    width: 100%;
+    height: 60px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+  .botton__gren:hover:before {
+    max-width: 390px;
+    width: 100%;
+    height: 60px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+
+.botton__border {
+  background: none;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 3px solid #7bc5ac !important;
+  -webkit-box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  box-shadow: 0px 8px 21px 0px rgba(73, 83, 93, 0.3);
+  max-width: 297px;
+  width: 100%;
+  line-height: 70px !important;
+  height: 70px;
+  text-align: center;
+  display: block;
+  border: none;
+  -webkit-transition: all 1.3s;
+  transition: all 1.3s;
+  letter-spacing: .15em;
+  color: #a5dbad;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 999px) {
+    .botton__border:hover {
+      border: none !important;
+      color: #fff;
+      -webkit-transition: all 1.3s;
+      transition: all 1.3s;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      background-image: -webkit-linear-gradient(54deg, #7bc5ac 56%, #faffb1 92%);
+      background-image: linear-gradient(36deg, #7bc5ac 56%, #faffb1 92%);
+      -webkit-box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23);
+      box-shadow: 0px 1px 8px 0px rgba(73, 83, 93, 0.23); } }
+
+.box__forma .botton__gren {
+  margin-top: 20px; }
+
+/* независимые элименты STYLE Web~Oman --------- */
+body {
+  background: url(images/full_back.png) no-repeat top 700px center; }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  z-index: 8;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+  box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+  background: url(images/header.png) no-repeat bottom center;
+  height: 900px; }
+  header .head__top {
+    height: 100px;
+    background: #ffffff; }
+    header .head__top .box__top__head {
+      z-index: 10;
+      position: relative;
+      background: #fff;
+      min-height: 100px; }
+    header .head__top .box__logo {
+      margin-top: 40px; }
+    header .head__top .box__phone {
+      margin-top: 16px; }
+      header .head__top .box__phone .callme {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 22px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        line-height: 80px; }
+        header .head__top .box__phone .callme:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 48px;
+          height: 48px;
+          border-top: 2px solid #2ecc71;
+          border-right: 2px solid #2ecc71;
+          -webkit-transition: all 0.2s !important;
+          transition: all 0.2s !important; }
+        header .head__top .box__phone .callme:after {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 48px;
+          height: 48px;
+          border-bottom: 2px solid #2ecc71;
+          border-left: 2px solid #2ecc71;
+          -webkit-transition: all 0.2s !important;
+          transition: all 0.2s !important; }
+        header .head__top .box__phone .callme:hover {
+          color: #4F7F33; }
+          header .head__top .box__phone .callme:hover:after {
+            width: 70px;
+            -webkit-transition: all 0.2s !important;
+            transition: all 0.2s !important;
+            height: 70px; }
+          header .head__top .box__phone .callme:hover:before {
+            width: 70px;
+            -webkit-transition: all 0.2s !important;
+            transition: all 0.2s !important;
+            height: 70px; }
+      header .head__top .box__phone .box__a {
+        width: 150px;
+        display: inline-block;
+        margin-top: 11px;
+        margin-left: 16px; }
+        header .head__top .box__phone .box__a .phone {
+          color: #000000;
+          font: 1em "HelveticaNeueCyr-Light";
+          line-height: 1.45;
+          letter-spacing: .025em; }
+          @media only screen and (min-width: 999px) {
+            header .head__top .box__phone .box__a .phone:hover {
+              color: #00b63f; } }
+  header h1 {
+    margin-top: 340px;
+    text-align: center;
+    color: #000000;
+    font: 2.88em "HelveticaNeueCyr-Bold";
+    text-transform: uppercase; }
+    header h1 span {
+      color: #2ecc71; }
+    header h1 .n1 {
+      font-size: 1.02em;
+      color: #000000;
+      letter-spacing: .007em; }
+  header .excerpt {
+    margin-top: 10px;
+    color: #404041;
+    line-height: 1.02; }
+  header .slogan {
+    margin-top: 35px;
+    color: #acaeb2;
+    margin-bottom: 30px; }
+  header .slogan {
+    margin-top: 15px;
+    color: #000000;
+    font: 1.5em "HelveticaNeueCyr-Light";
+    text-align: center;
+    letter-spacing: .025em; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+  header {
+    height: 700px;
+    z-index: 8;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    background: url(images/header.png) no-repeat bottom center;
+    background-size: cover; }
+    header h1 {
+      margin-top: 200px; } }
+
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  header {
+    height: 600px;
+    z-index: 8;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    background: url(images/header.png) no-repeat bottom center;
+    background-size: cover; }
+    header h1 {
+      font-size: 2.5em;
+      margin-top: 165px; }
+      header h1 br {
+        display: none; } }
+
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  header {
+    height: 500px;
+    z-index: 8;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    background: url(images/header.png) no-repeat bottom center;
+    background-size: cover; }
+    header .box__logo {
+      text-align: center; }
+    header h1 {
+      font-size: 2em;
+      margin-top: 110px; }
+      header h1 br {
+        display: none; }
+    header .slogan {
+      font-size: 1.2em; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+  header {
+    height: auto;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    background-size: cover; }
+    header .head__top {
+      text-align: center;
+      height: auto; }
+      header .head__top .box__phone .box__a {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px; }
+      header .head__top .box__phone .callme {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px; }
+    header .box__logo {
+      text-align: center; }
+    header h1 {
+      font-size: 2em;
+      margin-top: 50px; }
+      header h1 br {
+        display: none; }
+    header .slogan {
+      font-size: 1.2em; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  header {
+    height: auto;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    box-shadow: 0px 0px 30px 0px rgba(17, 17, 17, 0.3);
+    background-size: cover; }
+    header .head__top {
+      text-align: center;
+      height: auto; }
+      header .head__top .box__phone .box__a {
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px; }
+      header .head__top .box__phone .callme {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px; }
+    header .box__logo {
+      text-align: center; }
+    header h1 {
+      font-size: 1.5em;
+      margin-top: 35px; }
+      header h1 br {
+        display: none; }
+    header .slogan {
+      font-size: 1.2em; } }
+
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

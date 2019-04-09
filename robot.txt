@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /ajax/
+Disallow: /php/
+Disallow: /libs/
+Disallow: /js/
+Disallow: /success.php 
+
+Disallow: / # желательно ставить эту строку на тестовые сайты
+
+User-agent: Yandex
+Disallow: /ajax/
+Disallow: /php/
+Disallow: /libs/
+Disallow: /js/
+Disallow: /success.php
