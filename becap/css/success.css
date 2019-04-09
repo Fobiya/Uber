@@ -1,0 +1,302 @@
+@charset "UTF-8";
+/*CSS FONTS Web~Oman*/
+/*CSS FONTS END Web~Oman*/
+button {
+  border: none !important; }
+
+a, button {
+  cursor: pointer;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+a:hover, button:hover {
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important; }
+
+div, a {
+  position: relative;
+  display: block; }
+
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+nav#primary {
+  z-index: 13;
+  position: absolute;
+  top: 160px;
+  right: 0; }
+
+nav#primary ul {
+  position: fixed;
+  list-style: none;
+  margin-left: -50px;
+  text-align: center;
+  width: 51px; }
+
+nav#primary li:nth-child(2) a {
+  opacity: .9; }
+
+nav#primary li:nth-child(3) a {
+  opacity: .8; }
+
+nav#primary li:nth-child(4) a {
+  opacity: .7; }
+
+nav#primary li:nth-child(5) a {
+  opacity: .6; }
+
+nav#primary li:nth-child(6) a {
+  opacity: .5; }
+
+nav#primary li:nth-child(7) a {
+  opacity: .4; }
+
+nav#primary li:nth-child(8) a {
+  opacity: .3; }
+
+nav#primary li:nth-child(9) a {
+  opacity: .2; }
+
+nav#primary li {
+  position: relative; }
+
+nav#primary a {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 36px;
+  border: 0px solid #b7bac0;
+  margin-bottom: 10px;
+  color: #000;
+  background-color: #b0bbc2;
+  text-decoration: none; }
+  nav#primary a span {
+    display: none; }
+
+nav#primary a:hover, nav#primary a.active {
+  background: white;
+  border: 2px solid #b0bbc2;
+  color: #000;
+  opacity: 1 !important;
+  width: 51px;
+  height: 51px; }
+  nav#primary a:hover span, nav#primary a.active span {
+    line-height: 51px !important;
+    display: block;
+    color: #ff800e;
+    font: 1.3em "Proxima Nova Semibold"; }
+
+nav#primary h3 {
+  display: none;
+  position: absolute;
+  right: 45px;
+  top: -10px;
+  font-weight: 100;
+  font-size: 12px;
+  white-space: nowrap;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "Roboto-Light";
+  color: #000; }
+
+nav.next-prev {
+  margin: 20px 0 0 0; }
+
+/* НАВИГАЦИЯ элименты STYLE Web~Oman --------- */
+.botton__orang {
+  max-width: 262px;
+  width: 100%;
+  line-height: 55px !important;
+  height: 55px;
+  text-align: center;
+  background: #ff800e;
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  overflow: hidden;
+  z-index: 1; }
+  .botton__orang q {
+    font: 1.3em "Proxima Nova Semibold";
+    color: #ffffff;
+    z-index: 3;
+    position: relative; }
+
+.header__top {
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 48px;
+  max-width: 242px;
+  width: 100%;
+  height: 55px;
+  border: 2px solid #ff800e;
+  text-align: center;
+  line-height: 51px !important;
+  color: #ff800e;
+  font: 1.3em "Proxima Nova Semibold";
+  letter-spacing: .023em;
+  -webkit-border-radius: 27px;
+  border-radius: 27px; }
+
+/* независимые элименты STYLE Web~Oman --------- */
+html *,
+html *:before,
+html *:after {
+  -webkit-transition: 0.5s;
+  transition: 0.5s; }
+
+[class^="btn-"] {
+  position: relative;
+  display: block;
+  text-transform: uppercase; }
+
+.btn-6 span {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #ab410e;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: width 1.4s, height 1.4s;
+  transition: width 1.4s, height 1.4s;
+  z-index: 1; }
+
+.btn-6:hover span {
+  width: 852.5px;
+  height: 562.5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.56);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.56); }
+
+/* END независимые элименты STYLE Web~Oman ------ */
+/*CSS style Web~Oman*/
+header {
+  height: 711px;
+  background: url(../images/success.png) no-repeat top center; }
+  header h2 {
+    font: 2.5em "Proxima Nova Semibold" !important;
+    margin-top: 247px;
+    text-align: left; }
+  header .h2__excerpt {
+    font: 1.25em "Proxima Nova Regular" !important;
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 40px; }
+  header .botton__orang {
+    text-decoration: none;
+    max-width: 363px;
+    width: 100%; }
+
+/*CSS style Web~Oman*/
+/*CSS style (max-width: 1199px) and (min-width: 993px) Web~Oman                               ----------------------------------   1199*/
+/*CSS END style (max-width: 1199px) and (min-width: 993px) END Web~Oman  */
+/*CSS style (max-width: 992px) and (min-width: 769px) Web~Oman                                 ----------------------------------   992*/
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+  header {
+    height: auto;
+    padding-bottom: 100px !important;
+    background: #F5F5F5; }
+    header h2 {
+      font: 2.5em "Proxima Nova Semibold" !important;
+      margin-top: 100px !important;
+      text-align: center; }
+    header .h2__excerpt {
+      font: 1.25em "Proxima Nova Regular" !important;
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 40px; }
+      header .h2__excerpt br {
+        display: block; }
+    header .botton__orang {
+      text-decoration: none;
+      max-width: 363px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/*CSS END style (max-width: 992px) and (min-width: 769px) END Web~Oman  */
+/*CSS style (max-width: 768px) and (min-width: 541px) Web~Oman                                 ----------------------------------   768*/
+@media only screen and (max-width: 768px) and (min-width: 541px) {
+  header {
+    height: auto;
+    padding-bottom: 100px !important;
+    background: #F5F5F5; }
+    header h2 {
+      font: 2.5em "Proxima Nova Semibold" !important;
+      margin-top: 100px !important;
+      text-align: center; }
+    header .h2__excerpt {
+      font: 1.25em "Proxima Nova Regular" !important;
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 40px; }
+      header .h2__excerpt br {
+        display: block; }
+    header .botton__orang {
+      text-decoration: none;
+      max-width: 363px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+@media only screen and (max-width: 540px) and (min-width: 321px) {
+  header {
+    height: auto;
+    padding-bottom: 50px !important;
+    background: #F5F5F5; }
+    header h2 {
+      font: 2.5em "Proxima Nova Semibold" !important;
+      margin-top: 50px !important;
+      text-align: center; }
+    header .h2__excerpt {
+      font: 1.25em "Proxima Nova Regular" !important;
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 40px; }
+      header .h2__excerpt br {
+        display: block; }
+    header .botton__orang {
+      text-decoration: none;
+      max-width: 363px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/*CSS END style (max-width: 768px) and (min-width: 541px) END Web~Oman  */
+/*CSS style (max-width: (max-width: 540px) and (min-width: 321px) Web~Oman                     ----------------------------------  540*/
+/*CSS END style (max-width: 540px) and (min-width: 321px) END Web~Oman  */
+/*CSS style (max-width: 320px) and (min-width: 200px) { Web~Oman                               ----------------------------------  320*/
+@media only screen and (max-width: 320px) and (min-width: 200px) {
+  header {
+    height: auto;
+    padding-bottom: 50px !important;
+    background: #F5F5F5; }
+    header h2 {
+      font: 2.5em "Proxima Nova Semibold" !important;
+      margin-top: 50px !important;
+      text-align: center; }
+    header .h2__excerpt {
+      font: 1.25em "Proxima Nova Regular" !important;
+      margin-top: 15px;
+      text-align: center;
+      margin-bottom: 40px; }
+      header .h2__excerpt br {
+        display: block; }
+    header .botton__orang {
+      text-decoration: none;
+      max-width: 363px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/*CSS END style (max-width: 320px) and (min-width: 200px) END Web~Oman  */

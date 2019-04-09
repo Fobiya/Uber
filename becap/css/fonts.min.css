@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "FuturaPT-BookObl";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/FuturaPT-BookObl/FuturaPT-BookObl.woff2") format("woff2"), url("fonts/FuturaPT-BookObl/FuturaPT-BookObl.woff") format("woff"), url("fonts/FuturaPT-BookObl/FuturaPT-BookObl.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FuturaPT-Demi";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/FuturaPT-Demi/FuturaPT-Demi.woff2") format("woff2"), url("fonts/FuturaPT-Demi/FuturaPT-Demi.woff") format("woff"), url("fonts/FuturaPT-Demi/FuturaPT-Demi.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FuturaPT-Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/FuturaPT-Heavy/FuturaPT-Heavy.woff2") format("woff2"), url("fonts/FuturaPT-Heavy/FuturaPT-Heavy.woff") format("woff"), url("fonts/FuturaPT-Heavy/FuturaPT-Heavy.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FuturaPT-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/FuturaPT-Light/FuturaPT-Light.woff2") format("woff2"), url("fonts/FuturaPT-Light/FuturaPT-Light.woff") format("woff"), url("fonts/FuturaPT-Light/FuturaPT-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "FuturaPT-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/FuturaPT-Medium/FuturaPT-Medium.woff2") format("woff2"), url("fonts/FuturaPT-Medium/FuturaPT-Medium.woff") format("woff"), url("fonts/FuturaPT-Medium/FuturaPT-Medium.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tinos-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Tinos-Bold/Tinos-Bold.woff2") format("woff2"), url("fonts/Tinos-Bold/Tinos-Bold.woff") format("woff"), url("fonts/Tinos-Bold/Tinos-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tinos-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Tinos-Italic/Tinos-Italic.woff2") format("woff2"), url("fonts/Tinos-Italic/Tinos-Italic.woff") format("woff"), url("fonts/Tinos-Italic/Tinos-Italic.ttf") format("truetype"); }
